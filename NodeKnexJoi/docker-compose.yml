@@ -1,0 +1,12 @@
+version: '3'
+services:
+  node:
+    build: .
+    ports:
+    - "5000:5000"
+    depends_on:
+    - docker-mysql
+  docker-mysql:
+    image: mysql
+    volumes:
+    - ./mysql-data:/data/db
