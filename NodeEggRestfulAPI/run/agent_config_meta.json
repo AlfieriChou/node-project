@@ -1,0 +1,311 @@
+{
+  "keys": "/opentest/firstegg/config/config.default.js",
+  "middleware": "/opentest/firstegg/config/config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "/opentest/firstegg/config/config.default.js",
+      "ignore": "/opentest/firstegg/config/config.default.js",
+      "useSession": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "headerName": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "value": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "value": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "value": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/opentest/firstegg/node_modules/egg-security/config/config.default.js",
+      "policy": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "knex": {
+    "client": {
+      "dialect": "/opentest/firstegg/config/config.default.js",
+      "connection": {
+        "host": "/opentest/firstegg/config/config.default.js",
+        "port": "/opentest/firstegg/config/config.default.js",
+        "user": "/opentest/firstegg/config/config.default.js",
+        "password": "/opentest/firstegg/config/config.default.js",
+        "database": "/opentest/firstegg/config/config.default.js",
+        "supportBigNumbers": "/opentest/firstegg/config/config.default.js",
+        "charset": "/opentest/firstegg/config/config.default.js",
+        "connectTimeout": "/opentest/firstegg/config/config.default.js"
+      },
+      "pool": {
+        "min": "/opentest/firstegg/config/config.default.js",
+        "max": "/opentest/firstegg/config/config.default.js"
+      }
+    },
+    "app": "/opentest/firstegg/config/config.default.js",
+    "agent": "/opentest/firstegg/config/config.default.js",
+    "default": {
+      "dialect": "/opentest/firstegg/node_modules/egg-knex/config/config.default.js",
+      "connection": {
+        "database": "/opentest/firstegg/node_modules/egg-knex/config/config.default.js"
+      },
+      "pool": {
+        "min": "/opentest/firstegg/node_modules/egg-knex/config/config.default.js",
+        "max": "/opentest/firstegg/node_modules/egg-knex/config/config.default.js"
+      },
+      "acquireConnectionTimeout": "/opentest/firstegg/node_modules/egg-knex/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/opentest/firstegg/node_modules/egg-session/config/config.default.js",
+    "key": "/opentest/firstegg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/opentest/firstegg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/opentest/firstegg/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/opentest/firstegg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/opentest/firstegg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/opentest/firstegg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/opentest/firstegg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/opentest/firstegg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/opentest/firstegg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/opentest/firstegg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/opentest/firstegg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/opentest/firstegg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/opentest/firstegg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/opentest/firstegg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/opentest/firstegg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/opentest/firstegg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/opentest/firstegg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/opentest/firstegg/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/opentest/firstegg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/opentest/firstegg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/opentest/firstegg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/opentest/firstegg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/opentest/firstegg/node_modules/egg-development/config/config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/opentest/firstegg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/opentest/firstegg/node_modules/egg-schedule/config/config.default.js"
+    },
+    "knex": {
+      "file": "/opentest/firstegg/node_modules/egg-knex/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/opentest/firstegg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/opentest/firstegg/node_modules/egg-static/config/config.default.js",
+    "dir": "/opentest/firstegg/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/opentest/firstegg/node_modules/egg-static/config/config.default.js",
+    "preload": "/opentest/firstegg/node_modules/egg-static/config/config.default.js",
+    "buffer": "/opentest/firstegg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/opentest/firstegg/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/opentest/firstegg/node_modules/egg-view/config/config.default.js",
+    "cache": "/opentest/firstegg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/opentest/firstegg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/opentest/firstegg/node_modules/egg-view/config/config.default.js",
+    "mapping": "/opentest/firstegg/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "name": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "proxy": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "version": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "description": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "private": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "egg-knex": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "joi": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "joi2json": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "knex": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "lodash": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "autod-egg": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "egg-bin": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "egg-ci": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "egg-mock": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "eslint": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "stop": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "dev": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "debug": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "test": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "test-local": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "cov": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "lint": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "ci": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "autod": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "standard": {
+      "globals": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "url": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "author": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "license": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "HOME": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "rundir": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "notFound": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "sitefile": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "middlewares": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "httpClient": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "encoding": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "formLimit": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "strict": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "depth": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "encoding": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "env": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "level": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "buffer": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "appLogName": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/opentest/firstegg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+    "logging": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "port": "/opentest/firstegg/node_modules/egg/config/config.default.js",
+      "hostname": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/opentest/firstegg/node_modules/egg/config/config.default.js"
+  }
+}
