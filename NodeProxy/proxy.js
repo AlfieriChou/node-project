@@ -1,0 +1,67 @@
+import http from 'http';
+import assert from 'assert';
+import log from './log';
+
+/** 反向代理中间件 */
+const reverseProxy = (options) => {
+  assert(Array.isArray(options.servers), "options.servers 必须是数组");
+  assert(options.servers.length > 0, "options.servers 的长度必须大于 0");
+
+  // 解析服务器地址，生成 hostname 和 port
+  const servers = options.servers.map(str => {
+    const s = str.split(":");
+    return { hostname: s[0], port: s[1] || "80" };
+  });
+
+  // 获取一个后端服务器，顺序循环
+  let ti = 0;
+  const getTarget = () => {
+    const t = servers[ti];
+    ti++;
+    if (ti >= servers.length) {
+      ti = 0;
+    }
+    return t;
+  }
+
+  // 生成监听 error 事件函数，出错时响应 500
+  const bindError = (req, res, id) => {
+    return (err) => {
+      const msg = String(err.stack || err);
+      log("[%s] 发生错误: %s", id, msg);
+      if (!res.headersSent) {
+        return res.writeHead(500, { "content-type": "text/plain" });
+      }
+      return res.end(msg);
+    };
+  }
+
+  const proxy = async (req, res) => {
+
+    // 生成代理请求信息
+    const target = await getTarget();
+    const info = {
+      method: req.method,
+      path: req.url,
+      headers: req.headers
+    };
+
+    const id = `${req.method} ${req.url} => ${target.hostname}:${target.port}`;
+    log("[%s] 代理请求", id);
+
+    // 发送代理请求
+    const req2 = http.request(info, res2 => {
+      res2.on("error", bindError(req, res, id));
+      log("[%s] 响应: %s", id, res2.statusCode);
+      res.writeHead(res2.statusCode, res2.headers);
+      res2.pipe(res);
+    });
+    req.pipe(req2);
+    req2.on("error", bindError(req, res, id));
+
+  }
+
+  return proxy;
+};
+
+export default reverseProxy;
