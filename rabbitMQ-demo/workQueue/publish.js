@@ -1,0 +1,6 @@
+const jackrabbit = require('jackrabbit')
+const config = require('../config')
+const rabbit = jackrabbit(config.url)
+const exchange = rabbit.default()
+exchange.queue({name: "task_queue", durable: true})
+exchange.publish({ name: "Hunter" }, { key: "task_queue" })

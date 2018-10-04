@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-demo",
+  "version": "1.0.0",
+  "description": "rabbit demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieriChou/rabbitMQ-demo.git"
+  },
+  "keywords": [
+    "rabbit"
+  ],
+  "author": "AlfieriChou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfieriChou/rabbitMQ-demo/issues"
+  },
+  "homepage": "https://github.com/AlfieriChou/rabbitMQ-demo#readme",
+  "dependencies": {
+    "jackrabbit": "^4.3.0"
+  }
+}
