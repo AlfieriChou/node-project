@@ -1,0 +1,2 @@
+# algorithm
+Algorithm for JavaScript
