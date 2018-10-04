@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "webpack test",
+  "main": "server.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "AlfieriChou",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.9"
+  }
+}
