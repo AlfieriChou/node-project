@@ -1,0 +1,28 @@
+{
+  "name": "nodememcached",
+  "version": "1.0.0",
+  "description": "memcached",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlfieriChou/NodeMemcached.git"
+  },
+  "keywords": [
+    "memcached"
+  ],
+  "author": "AlfieriChou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfieriChou/NodeMemcached/issues"
+  },
+  "homepage": "https://github.com/AlfieriChou/NodeMemcached#readme",
+  "dependencies": {
+    "memcached": "^2.2.2",
+    "memcached-promisify": "^2.0.0"
+  },
+  "devDependencies": {}
+}
