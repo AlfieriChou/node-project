@@ -1,0 +1,17 @@
+{
+  "name": "nodeforeachasync",
+  "version": "1.0.0",
+  "description": "forEach async",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async"
+  ],
+  "author": "AlfieriChou",
+  "license": "MIT",
+  "dependencies": {
+    "forEachAsync": "^3.0.0"
+  }
+}
