@@ -7,9 +7,9 @@
     "egg": "^2.2.1",
     "egg-knex": "^2.0.9",
     "egg-scripts": "^2.5.0",
-    "joi": "^13.1.2",
+    "joi": "^14.0.6",
     "joi2json": "^1.0.2",
-    "knex": "^0.14.4",
+    "knex": "^0.15.2",
     "lodash": "^4.17.5"
   },
   "devDependencies": {
@@ -18,8 +18,8 @@
     "egg-bin": "^4.3.5",
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.14.0",
-    "eslint": "^4.11.0",
-    "eslint-config-egg": "^6.0.0",
+    "eslint": "^5.9.0",
+    "eslint-config-egg": "^7.1.0",
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
