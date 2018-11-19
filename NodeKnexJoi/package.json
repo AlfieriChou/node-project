@@ -21,17 +21,17 @@
     "nodemon": "^1.12.1"
   },
   "dependencies": {
-    "db-migrate": "^0.10.7",
+    "db-migrate": "^0.11.4",
     "express": "^4.16.2",
     "express-joi": "^0.3.1",
-    "joi": "^13.1.2",
-    "knex": "^0.14.4",
+    "joi": "^14.0.6",
+    "knex": "^0.15.2",
     "lodash": "^4.17.5",
-    "log4js": "^2.5.3",
+    "log4js": "^3.0.6",
     "morgan": "^1.9.0",
     "mysql": "^2.15.0",
     "node-xlsx": "^0.12.0",
     "nodemon": "^1.12.1",
-    "swagger-ui-express": "^3.0.6"
+    "swagger-ui-express": "^4.0.1"
   }
 }
