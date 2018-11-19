@@ -1,0 +1,33 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "Node-gRPC/chat/package.json",
+        "NodeBlockChain/package.json",
+        "NodeCaptcha/package.json",
+        "NodeCronJob/package.json",
+        "NodeCrypted/package.json",
+        "NodeEggRestfulAPI/lib/plugin/egg-joi/package.json",
+        "NodeEggRestfulAPI/package.json",
+        "NodeEmailCaptcha/package.json",
+        "NodeForEachAsync/package.json",
+        "NodeGraphQL/package.json",
+        "NodeJWT/package.json",
+        "NodeKnexJoi/package.json",
+        "NodeMemcached/express-demo/package.json",
+        "NodeMemcached/koa-demo/package.json",
+        "NodeMemcached/package.json",
+        "NodeMysqlRestful/package.json",
+        "NodeOSS/package.json",
+        "NodeProxy/package.json",
+        "NodeQrcode/package.json",
+        "NodeSecondKill/package.json",
+        "NodeWebpack/es5webpack/package.json",
+        "NodeWebpack/es6webpack/package.json",
+        "RedisCache/koa-demo/package.json",
+        "RedisCache/package.json",
+        "rabbitMQ-demo/package.json"
+      ]
+    }
+  }
+}
